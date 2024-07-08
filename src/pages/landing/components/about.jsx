@@ -1,4 +1,5 @@
 import React from 'react';
+import aboutBg from "./images/Femininity.jpeg";
 import { CirclePlay } from 'lucide-react';
 
 
@@ -7,7 +8,7 @@ const About = () => {
     <div className="flex items-center justify-between p-8 bg-white">
       <div className="w-1/2">
         <img 
-          src= "./assets/images/Femininity.jpeg"
+          src= {aboutBg}
           alt="Smiling woman" 
           loading="lazy"
           className="w-full h-auto rounded-lg"
