@@ -1,13 +1,15 @@
 import React from 'react';
-import { Play } from 'lucide-react';
+import { CirclePlay } from 'lucide-react';
+
 
 const About = () => {
   return (
     <div className="flex items-center justify-between p-8 bg-white">
       <div className="w-1/2">
         <img 
-          src="./images/hero4.kpg" 
+          src= "./assets/images/Femininity.jpeg"
           alt="Smiling woman" 
+          loading="lazy"
           className="w-full h-auto rounded-lg"
         />
       </div>
@@ -19,8 +21,8 @@ const About = () => {
         <p className="text-gray-600 mb-6">
           Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
         </p>
-        <button className="flex items-center bg-orange-500 text-white px-4 py-2 rounded-full hover:bg-orange-600 transition duration-300">
-          <Play className="h-5 w-5 mr-2" />
+        <button className="flex items-center text-orange px-4 py-2  hover:bg-orange-600 transition duration-300">
+          <CirclePlay className="h-8 w-8 mr-2 bg-orange-500 rounded-full" />
           Watch Video
         </button>
       </div>

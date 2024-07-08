@@ -1,3 +1,3 @@
-import heroBg from "./images/hero.jpg";
+import heroBg from "./images/eye.jpeg";
 
 export { heroBg };
