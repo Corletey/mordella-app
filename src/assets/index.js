@@ -1,7 +1,7 @@
 import heroBg from "./images/eye.jpeg";
-import aboutBg from "./images/Femininity.jpeg";
+import abImg from "./images/femine.jpeg";
 
 
 
 export { heroBg };
-export { aboutBg };
+export { abImg };
